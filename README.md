@@ -17,3 +17,6 @@ Output: नमस्ते, आप कैसे हैं (Hindi)
 
 Built for CodeAlpha AI Internship
 #codealpha #python #ai #internship
+### Output
+![Screenshot 1](IMG_20260908_192933.jpg)
+![Screenshot 2](IMG_20260908_192910.jpg)
