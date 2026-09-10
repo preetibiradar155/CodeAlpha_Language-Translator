@@ -1,0 +1,33 @@
+# Task 2 - FAQ Chatbot - CodeAlpha Internship
+# Created by Preeti Biradar
+
+def chatbot():
+    print("Chatbot: Hello! I'm FAQ Bot. Type 'bye' to exit.")
+    
+    faqs = {
+        "what is codealpha": "CodeAlpha provides internships in AI, Web Dev, Python etc.",
+        "duration": "Internship duration is 1 month.",
+        "certificate": "Yes, you will get certificate after completing tasks.",
+        "tasks": "You need to complete 2 tasks for CodeAlpha.",
+        "fees": "CodeAlpha internship is free."
+    }
+
+    while True:
+        user = input("You: ").lower()
+        
+        if "bye" in user or "exit" in user:
+            print("Chatbot: Bye! Good luck!")
+            break
+        elif "codealpha" in user:
+            print(f"Chatbot: {faqs['what is codealpha']}")
+        elif "duration" in user:
+            print(f"Chatbot: {faqs['duration']}")
+        elif "certificate" in user:
+            print(f"Chatbot: {faqs['certificate']}")
+        elif "task" in user:
+            print(f"Chatbot: {faqs['tasks']}")
+        elif "fees" in user or "free" in user:
+            print(f"Chatbot: {faqs['fees']}")
+        else:
+            print("Chatbot: Ask me about CodeAlpha, duration, certificate, tasks, fees.
+chatbot()
